@@ -43,7 +43,7 @@
                 <td>{{post.title}}</td>
                 <td>{{post.body}}</td>
                 <td>{{post.userId}}</td>
-                <td><button class="btn blue darken-2"@click.prevent="getPost(post.id)">EDITAR</button></td>
+                <td><button class="btn blue darken-2" @click.prevent="getPost(post.id)">EDITAR</button></td>
                 <td><button class="btn red darken-4" @click.prevent="deletePost(post.id)">ELIMINAR</button></td>
                 </tr>
             </tbody>
